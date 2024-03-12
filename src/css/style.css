@@ -1,0 +1,92 @@
+body {
+  background-color: #75aaff;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #75aaff;
+  padding-top: 20px;
+}
+
+p {
+  font-family: "Ubuntu", sans-serif;
+  color: #75aaff;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.box {
+  background-color: #ffffff;
+  width: 711px;
+  height: 500px;
+  margin: 80px 390px 30px 390px;
+}
+
+input {
+  background-color: #75aaff;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  width: 90%;
+  height: 28px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+
+input::placeholder {
+  color: #b5d2ff;
+}
+
+/* Cor de fundo do autocomplete */
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #75aaff inset;
+}
+
+/* Cor do texto do autocomplete */
+input:-webkit-autofill {
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+.botao p {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 5px;
+}
+
+button {
+  background-color: #75aaff;
+  color: #ffffff;
+  width: 50%;
+  height: 50px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 30px 0px 30px 0px;
+}
+
+button:hover {
+  color: #b5d2ff;
+  background-color: #5c9bff;
+}
+
+#resultado {
+  color: #75aaff;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  text-align: center;
+  padding-top: 10px;
+}
